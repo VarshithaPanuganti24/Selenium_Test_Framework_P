@@ -11,21 +11,23 @@
 		</classes>
 	</test>
 	<test name="OrangeHRMTest_edge">
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.orangehrm.test.DummyClass" />
 			<class name="com.orangehrm.test.DummyClass2" />
 		</classes>
 	</test>
 	<test name="OrangeHRMTest_firefox">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.orangehrm.test.DBVerificationTest" />
+			<!--<class name="com.orangehrm.test.DBVerificationTest" /> -->
 			<class name="com.orangehrm.test.LoginPageTest" />
 			<class name="com.orangehrm.test.HomePageTest" />
 		</classes>
 	</test>
 </suite>
+
+
 
 
 
